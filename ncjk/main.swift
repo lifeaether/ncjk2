@@ -118,4 +118,7 @@ while running {
     }
 }
 
+inStream.close()
+outStream.close()
+
 exit( EXIT_SUCCESS )
